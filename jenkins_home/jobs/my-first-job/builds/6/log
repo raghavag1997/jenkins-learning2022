@@ -1,0 +1,15 @@
+Started by user [8mha:////4Oqj+sD58B6kaM0f1T/y7PrC7zWEwjE9JbHncHuvOqzTAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgZu/dLi1CL9xJTczDwA9svhPMAAAAA=[0mRaghav
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/my-first-job
+[my-first-job] $ /bin/sh -xe /tmp/jenkins4099691150969513383.sh
++ date
++ echo Current Date - Mon Mar 21 11:37:34 UTC 2022
+Current Date - Mon Mar 21 11:37:34 UTC 2022
++ x=5
++ y=7
++ echo Addition of two no is - 12
+Addition of two no is - 12
++ myname=raghav
++ echo raghav
+raghav
+Finished: SUCCESS

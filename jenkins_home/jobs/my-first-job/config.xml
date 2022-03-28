@@ -1,0 +1,39 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<project>
+  <actions/>
+  <description></description>
+  <keepDependencies>false</keepDependencies>
+  <properties/>
+  <scm class="hudson.scm.NullSCM"/>
+  <canRoam>true</canRoam>
+  <disabled>false</disabled>
+  <blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+  <blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+  <triggers/>
+  <concurrentBuild>false</concurrentBuild>
+  <builders>
+    <hudson.tasks.Shell>
+      <command>echo &quot;Current Date - $(date)&quot;
+x=5
+y=7
+echo &quot;Addition of two no is - $(($x+$y))&quot;
+
+myname=raghav
+echo $myname
+
+x=raghav
+echo &quot;My name is $x&quot;
+
+#Redirect Output of command
+
+echo &quot;My name is $x&quot; &gt; name.txt
+
+#Running Shell file
+
+/tmp/test.sh Raghav Agarwal</command>
+      <configuredLocalRules/>
+    </hudson.tasks.Shell>
+  </builders>
+  <publishers/>
+  <buildWrappers/>
+</project>
