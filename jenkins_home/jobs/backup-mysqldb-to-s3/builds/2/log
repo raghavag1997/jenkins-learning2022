@@ -1,0 +1,24 @@
+Started by user [8mha:////4Oqj+sD58B6kaM0f1T/y7PrC7zWEwjE9JbHncHuvOqzTAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgZu/dLi1CL9xJTczDwA9svhPMAAAAA=[0mRaghav
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/backup-mysqldb-to-s3
+[SSH] script:
+password=**********
+hostname="mysql_db"
+db_name="mydb"
+username="root"
+
+#./tmp/mysql-backup-upload-to-s3.sh $username $password $hostname $db_name
+ls /tmp
+
+[SSH] executing...
+09-02-39-mydb.sql
+ks-script-4luisyla
+ks-script-o23i7rc2
+ks-script-x6ei4wuu
+mydb.sql
+mysql-backup-upload-to-s3.sh
+
+[SSH] completed
+[SSH] exit-status: 0
+
+Finished: SUCCESS

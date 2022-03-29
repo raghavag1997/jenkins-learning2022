@@ -3,7 +3,10 @@ RUN cd /etc/yum.repos.d/
 RUN sed -i 's/mirrorlist/#mirrorlist/g' /etc/yum.repos.d/CentOS-*
 RUN sed -i 's|#baseurl=http://mirror.centos.org|baseurl=http://vault.centos.org|g' /etc/yum.repos.d/CentOS-*
 RUN yum -y install openssh-server
-RUN yum install -y passwd
+RUN yum install -y passwd && \
+    yum -y install mysql && \
+    yum install python3-pip -y && \
+    pip3 install awscli --upgrade
 RUN useradd remote_user && \
     echo "1234" | passwd remote_user --stdin && \
     mkdir /home/remote_user/.ssh && \

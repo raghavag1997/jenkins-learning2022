@@ -1,0 +1,24 @@
+Started by user [8mha:////4Oqj+sD58B6kaM0f1T/y7PrC7zWEwjE9JbHncHuvOqzTAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgZu/dLi1CL9xJTczDwA9svhPMAAAAA=[0mRaghav
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/backup-mysqldb-to-s3
+[SSH] script:
+AWS_SECRET_ACCESS_KEY=**********
+password=**********
+hostname="mysql_db"
+db_name="mydb"
+AWS_ACCESS_KEY="AKIA332E7RKLK54KIEEL"
+username="root"
+
+sh /tmp/mysql-backup-upload-to-s3.sh $username $password $hostname $db_name $AWS_ACCESS_KEY $AWS_SECRET_ACCESS_KEY
+
+
+[SSH] executing...
+mysqldump: [Warning] Using a password on the command line interface can be insecure.
+Creating Dump
+Uploading Dump to s3
+Completed 203 Bytes/203 Bytes (2.1 KiB/s) with 1 file(s) remainingupload: ../../tmp/09-21-28-mydb.sql to s3://backup-mysql-bucket2022/09-21-28-mydb.sql
+
+[SSH] completed
+[SSH] exit-status: 0
+
+Finished: SUCCESS
