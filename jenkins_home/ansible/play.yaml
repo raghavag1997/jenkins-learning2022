@@ -1,0 +1,12 @@
+- hosts: all
+  tasks:
+  - name: Printing the value from extra vars
+    debug:
+       msg: "{{ MSG }}"
+  - name: Shell script for showing message
+    shell:
+       echo "{{ MSG }}"
+    register: x
+  - name: Printing Output for shell command
+    debug:
+       msg: "{{ x.stdout }}" 
