@@ -118,3 +118,15 @@ ls
 ansible-playbook -i hosts play.yaml  -e "MSG='Hello World'"
 cat play.yaml 
 exit
+ls
+apt-get update
+sudo su -0
+sudo su -
+exit
+docker ps
+exit
+docker ps
+exit
+docker ps
+docker images
+exit

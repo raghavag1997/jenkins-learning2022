@@ -8,6 +8,10 @@
       <string>backup-mysqldb-to-s3</string>
       <ranges>4-5</ranges>
     </entry>
+    <entry>
+      <string>fourth-pipeline</string>
+      <ranges>2</ranges>
+    </entry>
   </usages>
   <facets/>
 </fingerprint>

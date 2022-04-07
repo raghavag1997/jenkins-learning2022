@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2022-04-06 18:11:10.260 UTC</timestamp>
+  <md5sum>06696365691268a94089dc5f78a9127b</md5sum>
+  <fileName>Credential id=gitlab name=raghavag1997/******</fileName>
+  <usages>
+    <entry>
+      <string>jenkins-maven</string>
+      <ranges>5</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

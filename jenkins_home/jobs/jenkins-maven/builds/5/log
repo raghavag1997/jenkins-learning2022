@@ -1,0 +1,20 @@
+Started by user [8mha:////4Oqj+sD58B6kaM0f1T/y7PrC7zWEwjE9JbHncHuvOqzTAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgZu/dLi1CL9xJTczDwA9svhPMAAAAA=[0mRaghav
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/jenkins-maven
+The recommended git tool is: NONE
+using credential gitlab
+ > git rev-parse --resolve-git-dir /var/jenkins_home/workspace/jenkins-maven/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://gitlab.com/java402/maven.git # timeout=10
+Fetching upstream changes from https://gitlab.com/java402/maven.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.30.2'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- https://gitlab.com/java402/maven.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision d429203aa304cba0a1beb7fda8219d916c1e2fce (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f d429203aa304cba0a1beb7fda8219d916c1e2fce # timeout=10
+Commit message: "Merge pull request #264 from MarkEWaite/use-latest-compiler-plugin"
+First time build. Skipping changelog.
+Finished: SUCCESS

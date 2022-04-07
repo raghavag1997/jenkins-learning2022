@@ -1,0 +1,27 @@
+Started by user [8mha:////4Oqj+sD58B6kaM0f1T/y7PrC7zWEwjE9JbHncHuvOqzTAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgZu/dLi1CL9xJTczDwA9svhPMAAAAA=[0mRaghav
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/jenkins-ansible
+[8mha:////4Mk+bO1haGNbbRL091QRMnTi/+w2HRrVZaupqvwQUnsAAAAAqx+LCAAAAAAAAP9b85aBtbiIQSujNKU4P0+vIKc0PTOvWC8xrzgzOT8nv0gvMbkkEyjhCKb88ktSdwVsu2efuqidiYHRh4EDIu2ZUsIg5JOVWJaon5OYl64fXFKUmZduXVHEIAU1ODk/rzg/J1XPGUKDDGKAAEYmBoaKghIGlaQ0M6MkQ/NkXTNzs2RdE9MkU10LC4NUXYPkFAPLxCST1CQzAwB5Sd1arwAAAA==[0m[jenkins-ansible] $ ansible-playbook /var/jenkins_home/ansible/play.yaml -i /var/jenkins_home/ansible/hosts -f 5 -e "MSG='Hello World'"
+
+PLAY [all] *********************************************************************
+
+TASK [Gathering Facts] *********************************************************
+[0;32mok: [test1][0m
+
+TASK [Printing the value from extra vars] **************************************
+[0;32mok: [test1] => {[0m
+[0;32m    "msg": "Hello World"[0m
+[0;32m}[0m
+
+TASK [Shell script for showing message] ****************************************
+[0;33mchanged: [test1][0m
+
+TASK [Printing Output for shell command] ***************************************
+[0;32mok: [test1] => {[0m
+[0;32m    "msg": "Hello World"[0m
+[0;32m}[0m
+
+PLAY RECAP *********************************************************************
+[0;33mtest1[0m                      : [0;32mok=4   [0m [0;33mchanged=1   [0m unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+Finished: SUCCESS
